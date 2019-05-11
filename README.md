@@ -1,7 +1,7 @@
 # site-scraping-base
 
 ## 概要
-webサイトを[Puppeteer](https://pptr.dev/)でスクレイピングするためのベースリポジトリ。
+webサイトを[Puppeteer](https://pptr.dev/)でスクレイピングするためのベースリポジトリ。\
 スクレイピングしたいサイトのモデルファイルを作成するだけで拡張可能な設計にしている。
 
 ## 前提
@@ -57,6 +57,6 @@ etc...
 └── tsconfig.json
 ```
 
-スクレイピングしたいサイトのクラスを`src/site/ISite.ts`を継承して実装する。
-実装者は`abstract extract(browser: Browser)`メソッドのみを実装すれば良い。
+スクレイピングしたいサイトのクラスを`src/site/ISite.ts`を継承して実装する。\
+実装者は`abstract extract(browser: Browser)`メソッドのみを実装すれば良い。\
 実際の`page`初期化や例外時の処理はテンプレートとして作成してあるので実装者は気にしなくてよい。
