@@ -1,5 +1,5 @@
 import * as puppeteer from 'puppeteer';
-import { Browser, Page } from "puppeteer";
+import { Browser } from "puppeteer";
 import { ISite } from "./site/ISite";
 import { Hatebu } from "./site/hatebu/hatebu";
 
@@ -19,14 +19,11 @@ class App {
     }
 
     async scrape() {
-        const page: Page = await this.browser.newPage();
         try {
-            await page.goto(this.site.getUrl());
-            await this.site.scraping(page);
+            await this.site.scraping(this.browser);
         } catch (e) {
-            throw e;
+            console.error(e);
         } finally {
-            await page.close();
             await this.browser.close();
         }
     }
