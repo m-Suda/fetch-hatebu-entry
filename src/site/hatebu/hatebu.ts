@@ -21,32 +21,23 @@ export class Hatebu extends ISite {
     protected async extract(page: Page): Promise<void> {
 
         await page.goto(this.hotEntryUrl);
-        const hotEntryArr: EntryContent[] = await page.$$eval(this.ENTRY_LIST_CONTENTS,
-            (contents: Element[]) => {
-                return contents.map(
-                    (content: Element): EntryContent => {
-                        const a: any = content.childNodes[ 1 ];
-                        return {
-                            title: a.title,
-                            url: a.href,
-                        };
-                    });
-            });
+        const hotEntryArr: EntryContent[] = await page.$$eval(this.ENTRY_LIST_CONTENTS, this.extractEntry);
 
         await page.goto(this.entryListUrl);
-        const entryList: EntryContent[] = await page.$$eval<EntryContent[] | Promise<EntryContent[]>>(this.ENTRY_LIST_CONTENTS,
-            (contents: Element[]) => {
-                return contents.map(
-                    (content: Element): EntryContent => {
-                        const a: any = content.childNodes[ 1 ];
-                        return {
-                            title: a.title,
-                            url: a.href,
-                        };
-                    });
-            });
+        const entryList: EntryContent[] = await page.$$eval(this.ENTRY_LIST_CONTENTS, this.extractEntry);
 
         fs.writeFileSync(`${this.JSON_OUT_DIR}/${this.HOT_ENTRY_FILE}`, JSON.stringify({ results: hotEntryArr }));
         fs.writeFileSync(`${this.JSON_OUT_DIR}/${this.ENTRY_LIST_FILE}`, JSON.stringify({ results: entryList }));
+    }
+
+    private extractEntry(contents: Element[]) {
+        return contents.map(
+            (content: Element): EntryContent => {
+                const a: any = content.childNodes[ 1 ];
+                return {
+                    title: a.title,
+                    url: a.href,
+                };
+            });
     }
 }

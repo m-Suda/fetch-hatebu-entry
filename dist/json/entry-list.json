@@ -5,12 +5,20 @@
       "url": "https://automaton-media.com/devlog/report/20190511-91689/"
     },
     {
+      "title": "人気のGPSトラッカーから位置情報や周囲の音が漏れる欠陥が見つかった | TechCrunch Japan",
+      "url": "https://jp.techcrunch.com/2019/05/11/2019-05-10-gps-trackers-flaw/"
+    },
+    {
       "title": "インターン先のハッカソンでUnityの神と一緒にゲームを「たった2日」で作った話 - auの日記",
       "url": "https://program-shoshinsya.hatenablog.com/entry/2019/05/05/224535"
     },
     {
       "title": "GitHub - koddr/a2hs.js: 📲 A useful modern JavaScript solution for adding (install) a progressive web application (PWA) to the Home screen of your iOS mobile device. Designed for the latest 4 major versions of iOS Safari.",
       "url": "https://github.com/koddr/a2hs.js"
+    },
+    {
+      "title": "Googleが2019年から発売されるChromebookはすべてLinuxアプリ対応になると発表しました。 | HelenTech",
+      "url": "https://www.helentech.net/chromeos/2019/05/7245/"
     },
     {
       "title": "Replacing Google Analytics with GoAccess",
@@ -107,14 +115,6 @@
     {
       "title": "よくわからないJavaScriptが綺麗にされたらCard Stealerだった件 | リクルートテクノロジーズ　メンバーズブログ",
       "url": "https://recruit-tech.co.jp/blog/2019/05/10/cardstealer/"
-    },
-    {
-      "title": "「2年縛り」禁止、「完全分離」義務化の改正電気通信事業法が成立、今秋実施 - iPhone Mania",
-      "url": "https://iphone-mania.jp/news-247327/"
-    },
-    {
-      "title": "Linuxカーネル4.1のvmalloc()（ドラフト） - φ(・・*)ゞ ｳｰﾝ　カーネルとか弄ったりのメモ",
-      "url": "https://kernhack.hatenablog.com/entry/2019/05/10/210107"
     }
   ]
 }

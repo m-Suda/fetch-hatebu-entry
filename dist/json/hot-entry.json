@@ -49,24 +49,36 @@
       "url": "https://jp.techcrunch.com/2019/05/11/2019-05-10-github-gets-a-package-registry/"
     },
     {
-      "title": "Googleはツイッターアカウントを見て専門性、権威性、信頼性（E-A-T）を測っているのではないか - 俺の遺言を聴いてほしい",
-      "url": "https://oreno-yuigon.hatenablog.com/entry/2019/05/11/110751"
+      "title": "分離プラン義務化でiPhoneの支払額はどうなる？　検証してみた - ITmedia NEWS",
+      "url": "https://www.itmedia.co.jp/news/articles/1905/11/news021.html"
     },
     {
-      "title": "日本の声受け「Surface Go」開発 生みの親のMSパネイ氏語る - Engadget 日本版",
-      "url": "https://japanese.engadget.com/2019/05/10/surface-go-ms/"
+      "title": "プログラミング中級者に読んでほしい良いコードを書くための20箇条 | anopara",
+      "url": "https://anopara.net/2014/04/11/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E4%B8%AD%E7%B4%9A%E8%80%85%E3%81%AB%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BB%E3%81%97%E3%81%84%E8%89%AF%E3%81%84%E3%82%B3%E3%83%BC%E3%83%89/"
+    },
+    {
+      "title": "Googleはツイッターアカウントを見て専門性、権威性、信頼性（E-A-T）を測っているのではないか - 俺の遺言を聴いてほしい",
+      "url": "https://oreno-yuigon.hatenablog.com/entry/2019/05/11/110751"
     },
     {
       "title": "インターン先のハッカソンでUnityの神と一緒にゲームを「たった2日」で作った話 - auの日記",
       "url": "https://program-shoshinsya.hatenablog.com/entry/2019/05/05/224535"
     },
     {
-      "title": "犬のゴハンをインスタ映えさせてみた :: デイリーポータルZ",
-      "url": "https://dailyportalz.jp/kiji/inu-gohan_insta-bae"
+      "title": "日本の声受け「Surface Go」開発 生みの親のMSパネイ氏語る - Engadget 日本版",
+      "url": "https://japanese.engadget.com/2019/05/10/surface-go-ms/"
     },
     {
-      "title": "分離プラン義務化でiPhoneの支払額はどうなる？　検証してみた - ITmedia NEWS",
-      "url": "https://www.itmedia.co.jp/news/articles/1905/11/news021.html"
+      "title": "『サムライスピリッツ』の「道場モード」はいかにして作られたのか。「ニューラルネットワークを用いたAIの格闘ゲームへの組み込み」レポート【GCC2019】 | AUTOMATON",
+      "url": "https://automaton-media.com/devlog/report/20190511-91689/"
+    },
+    {
+      "title": "人気のGPSトラッカーから位置情報や周囲の音が漏れる欠陥が見つかった | TechCrunch Japan",
+      "url": "https://jp.techcrunch.com/2019/05/11/2019-05-10-gps-trackers-flaw/"
+    },
+    {
+      "title": "犬のゴハンをインスタ映えさせてみた :: デイリーポータルZ",
+      "url": "https://dailyportalz.jp/kiji/inu-gohan_insta-bae"
     },
     {
       "title": "Intelが次世代CPU「Ice Lake」を6月から出荷　製造プロセスは10nm - ITmedia PC USER",
@@ -85,6 +97,10 @@
       "url": "https://note.mu/sadako_a_/n/n1cad2287a916"
     },
     {
+      "title": "個人データを集め続けてGoogleはどこに向かうのか　 | ワールド | 最新記事 | ニューズウィーク日本版 オフィシャルサイト",
+      "url": "https://www.newsweekjapan.jp/stories/world/2019/05/google-1.php"
+    },
+    {
       "title": "日本初、VRで不安やストレスを低減する「relax VR」 | AMP[アンプ] - ビジネスインスピレーションメディア",
       "url": "https://amp.review/2019/05/10/vr-4/"
     },
@@ -97,10 +113,6 @@
       "url": "https://dev.classmethod.jp/cloud/aws/step-functions-cloudwatch-event/"
     },
     {
-      "title": "プログラミング中級者に読んでほしい良いコードを書くための20箇条 | anopara",
-      "url": "https://anopara.net/2014/04/11/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E4%B8%AD%E7%B4%9A%E8%80%85%E3%81%AB%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BB%E3%81%97%E3%81%84%E8%89%AF%E3%81%84%E3%82%B3%E3%83%BC%E3%83%89/"
-    },
-    {
       "title": "Twitterが政府からの情報開示要請について公表 | TechCrunch Japan",
       "url": "https://jp.techcrunch.com/2019/05/11/2019-05-09-twitter-transparency-report/"
     },
@@ -111,10 +123,6 @@
     {
       "title": "Replacing Google Analytics with GoAccess",
       "url": "https://benhoyt.com/writings/replacing-google-analytics/"
-    },
-    {
-      "title": "個人データを集め続けてGoogleはどこに向かうのか　 | ワールド | 最新記事 | ニューズウィーク日本版 オフィシャルサイト",
-      "url": "https://www.newsweekjapan.jp/stories/world/2019/05/google-1.php"
     },
     {
       "title": "Googleの廉価版スマホ「Pixel 3a／3a XL」で満足できる？　質感と見た目の第一印象を確かめた (1/3) - ITmedia NEWS",
@@ -187,14 +195,6 @@
     {
       "title": "Windows 10搭載の生体認証「Windows Hello」がFIDO2認定を取得 ～Webブラウザでもパスワード不要でログイン可能に - PC Watch",
       "url": "https://pc.watch.impress.co.jp/docs/news/1183854.html"
-    },
-    {
-      "title": "立ち上げたTwitterアカウント(BuzzFeed Kawaii)が1年で30万フォロワー、ノープロモで超えたので分析面でやったことをまとめた。 - ひにログ",
-      "url": "http://archive.fo/U9Um9"
-    },
-    {
-      "title": "機械翻訳はWikipediaの翻訳ツールとしていまだに問題があり、Wikipedia自体の信頼性を低下させている - GIGAZINE",
-      "url": "https://gigazine.net/news/20190510-wikipedia-ai-translation-problem/"
     }
   ]
 }
