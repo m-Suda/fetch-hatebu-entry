@@ -60,6 +60,7 @@ etc...
 └── tsconfig.json
 ```
 
+## 実装
 スクレイピングしたいサイトのクラスを`src/site/ISite.ts`を継承して実装する。\
 実装者は`abstract extract(browser: Browser)`メソッドのみを実装すれば良い。\
 実際の`page`初期化や例外時の処理はテンプレートとして作成してあるので実装者は気にしなくてよい。
